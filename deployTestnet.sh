@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 yarn
-truffle migrate --network testnet
+truffle migrate --network testnet $@
