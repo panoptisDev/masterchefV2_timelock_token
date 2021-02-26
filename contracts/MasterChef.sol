@@ -7,7 +7,7 @@ import "./libs/IBEP20.sol";
 import "./libs/SafeBEP20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-import "./EggToken.sol";
+import "./PikachuToken.sol";
 
 // MasterChef is the master of Egg. He can make Egg and he is a fair guy.
 //
@@ -47,7 +47,7 @@ contract MasterChef is Ownable {
     }
 
     // The EGG TOKEN!
-    EggToken public egg;
+    PikachuToken public egg;
     // Dev address.
     address public devaddr;
     // EGG tokens created per block.
@@ -71,7 +71,7 @@ contract MasterChef is Ownable {
     event EmergencyWithdraw(address indexed user, uint256 indexed pid, uint256 amount);
 
     constructor(
-        EggToken _egg,
+        PikachuToken _egg,
         address _devaddr,
         address _feeAddress,
         uint256 _eggPerBlock,

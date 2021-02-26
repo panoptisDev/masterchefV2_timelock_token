@@ -2,8 +2,8 @@ pragma solidity 0.6.12;
 
 import "./libs/BEP20.sol";
 
-// EggToken with Governance.
-contract EggToken is BEP20('Goose Golden Egg', 'EGG') {
+// PikachuToken with Governance.
+contract PikachuToken is BEP20('Pikachu', 'PIKACHU') {
     /// @notice Creates `_amount` token to `_to`. Must only be called by the owner (MasterChef).
     function mint(address _to, uint256 _amount) public onlyOwner {
         _mint(_to, _amount);
