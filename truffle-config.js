@@ -3,11 +3,11 @@ module.exports = {
    * $ truffle test --network <network-name>
    */
   plugins: [
-    'truffle-plugin-verify'
+    "truffle-plugin-verify"
   ],
-  // api_keys: {
-  //   etherscan: ''
-  // },
+  api_keys: {
+    etherscan: "0"
+  },
 
   networks: {
     testnet: {

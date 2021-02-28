@@ -23,6 +23,14 @@ make deploy
 - mint PikachuToken
 - transfer ownership of PikachuToken to MasterChefV2
 
+### Verify Contracts
+
+add your BscScan API Key to truffle-config.js
+
+```sh
+make verify
+```
+
 ### Add Pools to MasterChefV2
 ```sh
 truffle console --network mainnet
