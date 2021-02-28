@@ -13,7 +13,12 @@ https://pikachudefi.com Feel free to read the code. More details coming soon.
 
 ## Deployment
 
-### Deploy Tokens
+### Test Contracts
+```sh
+make test
+```
+
+### Deploy Contracts
 ```sh
 make deploy
 ```
@@ -27,15 +32,9 @@ make deploy
 
 - add your BscScan API Key to truffle-config.js
 ```js
-  plugins: [
-    "truffle-plugin-verify"
-  ],
   api_keys: {
     etherscan: "<apikey>"
   },
-
-  networks: {
-    testnet: {
 ```
 - then run
 ```sh
