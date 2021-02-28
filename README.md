@@ -4,7 +4,7 @@ https://pikachudefi.com Feel free to read the code. More details coming soon.
 
 ## Deployed Contracts
 
-### BSCMAINNET
+### BSC MAINNET
 
 - PikachuToken - https://bscscan.com/token/
 - MasterChef - https://bscscan.com/address/
