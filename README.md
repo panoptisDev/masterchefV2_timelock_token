@@ -51,13 +51,13 @@ chef.add(uint256 _allocPoint, IBEP20 _lpToken, uint16 _depositFeeBP, bool _withU
 depositFeeBP: 100 = 1%, 10000 = 100%
 
 - add LP pools to MasterChefV2
-  - 0: PIKACHU-BUSD LP
+  - 0: PIKACHU-BUSD LP https://exchange.pikachudefi.com/#/add/
   ```
   allocPoint   uint256 4000
   lpToken      address 
   depositFeeBP uint16  0
   ```
-  - 1: PIKACHU-BNB LP
+  - 1: PIKACHU-BNB LP https://exchange.pikachudefi.com/#/add/
   ```
   allocPoint   uint256 2400
   lpToken      address 
@@ -124,7 +124,7 @@ depositFeeBP: 100 = 1%, 10000 = 100%
   depositFeeBP uint16  400
   ```
 - add Token pools to MasterChefV2
-  - 12: PIKACHU
+  - 12: PIKACHU https://exchange.pikachudefi.com/#/swap/
   ```
   allocPoint   uint256 1000
   lpToken      address 
