@@ -105,7 +105,7 @@ depositFeeBP: 100 = 1%, 10000 = 100%
   lpToken      address 
   depositFeeBP uint16  400
   ```
-  - 9: DOT-BUSD LP https://exchange.pikachudefi.com/#/add/ETH/0x7083609fce4d1d8dc0c979aab8c869ea2c873402
+  - 9: DOT-BNB LP https://exchange.pikachudefi.com/#/add/ETH/0x7083609fce4d1d8dc0c979aab8c869ea2c873402
   ```
   allocPoint   uint256 600
   lpToken      address 
