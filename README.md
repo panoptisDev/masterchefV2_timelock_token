@@ -13,11 +13,27 @@ https://pikachudefi.com Feel free to read the code. More details coming soon.
 
 ## Deployment
 
+### Deploy Tokens
+```sh
+make deploy
+```
 - deploy PikachuToken
 - deploy Timelock
 - deploy MasterChefV2
 - mint PikachuToken
 - transfer ownership of PikachuToken to MasterChefV2
+
+### Add Pools to MasterChefV2
+```sh
+truffle console --network mainnet
+```
+```js
+let chef = await MasterChefV2.deployed();
+chef.add(uint256 _allocPoint, IBEP20 _lpToken, uint16 _depositFeeBP, bool _withUpdate);
+```
+
+depositFeeBP: 100 = 1%, 10000 = 100%
+
 - add LP pools to MasterChefV2
   - 0: PIKACHU-BUSD LP
   - 1: PIKACHU-BNB LP
