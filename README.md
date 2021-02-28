@@ -33,7 +33,7 @@ make deploy
 - add your BscScan API Key to truffle-config.js
 ```js
   api_keys: {
-    etherscan: "<apikey>"
+    bscscan: "<apikey>"
   },
 ```
 - then run
