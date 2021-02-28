@@ -25,8 +25,19 @@ make deploy
 
 ### Verify Contracts
 
-add your BscScan API Key to truffle-config.js
+- add your BscScan API Key to truffle-config.js
+```js
+  plugins: [
+    "truffle-plugin-verify"
+  ],
+  api_keys: {
+    etherscan: "<apikey>"
+  },
 
+  networks: {
+    testnet: {
+```
+- then run
 ```sh
 make verify
 ```
@@ -39,7 +50,6 @@ truffle console --network mainnet
 let chef = await MasterChefV2.deployed();
 chef.add(uint256 _allocPoint, IBEP20 _lpToken, uint16 _depositFeeBP, bool _withUpdate);
 ```
-
 depositFeeBP: 100 = 1%, 10000 = 100%
 
 - add LP pools to MasterChefV2
