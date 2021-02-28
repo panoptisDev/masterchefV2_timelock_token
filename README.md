@@ -99,7 +99,7 @@ depositFeeBP: 100 = 1%, 10000 = 100%
   lpToken      address 
   depositFeeBP uint16  400
   ```
-  - 8: LINK-BUSD LP https://exchange.pikachudefi.com/#/add/ETH/0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd
+  - 8: LINK-BNB LP https://exchange.pikachudefi.com/#/add/ETH/0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd
   ```
   allocPoint   uint256 600
   lpToken      address 
