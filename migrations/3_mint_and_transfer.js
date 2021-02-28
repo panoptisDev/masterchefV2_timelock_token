@@ -9,5 +9,5 @@ module.exports = async function (deployer) {
   let chef = await MasterChefV2.deployed();
 
   pika.mint("100000000000000000000000");
-  //pika.transferOwnership(chef.address);
+  pika.transferOwnership(chef.address);
 };

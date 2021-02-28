@@ -142,61 +142,73 @@ depositFeeBP: 100 = 1%, 10000 = 100%
   lpToken      address 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
   depositFeeBP uint16  400
   ```
-  - 15: USDT https://exchange.pikachudefi.com/#/swap/0x55d398326f99059ff775485246999027b3197955
+  - 15: EGG https://exchange.pikachudefi.com/#/swap/0xf952fc3ca7325cc27d15885d37117676d25bfda6
+  ```
+  allocPoint   uint256 300
+  lpToken      address 0xf952fc3ca7325cc27d15885d37117676d25bfda6
+  depositFeeBP uint16  400
+  ```
+  - 16: VIKING https://exchange.pikachudefi.com/#/swap/0x896eDE222D3f7f3414e136a2791BDB08AAa25Ce0
+  ```
+  allocPoint   uint256 300
+  lpToken      address 0x896eDE222D3f7f3414e136a2791BDB08AAa25Ce0
+  depositFeeBP uint16  400
+  ```
+  - 17: USDT https://exchange.pikachudefi.com/#/swap/0x55d398326f99059ff775485246999027b3197955
   ```
   allocPoint   uint256 100
   lpToken      address 0x55d398326f99059ff775485246999027b3197955
   depositFeeBP uint16  400
   ```
-  - 16: BTCB https://exchange.pikachudefi.com/#/swap/0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c
+  - 18: BTCB https://exchange.pikachudefi.com/#/swap/0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c
   ```
   allocPoint   uint256 200
   lpToken      address 0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c
   depositFeeBP uint16  400
   ```
-  - 17: ETH https://exchange.pikachudefi.com/#/swap/0x2170ed0880ac9a755fd29b2688956bd959f933f8
+  - 19: ETH https://exchange.pikachudefi.com/#/swap/0x2170ed0880ac9a755fd29b2688956bd959f933f8
   ```
   allocPoint   uint256 200
   lpToken      address 0x2170ed0880ac9a755fd29b2688956bd959f933f8
   depositFeeBP uint16  400
   ```
-  - 18: DAI https://exchange.pikachudefi.com/#/swap/0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3
+  - 20: DAI https://exchange.pikachudefi.com/#/swap/0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3
   ```
   allocPoint   uint256 100
   lpToken      address 0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3
   depositFeeBP uint16  400
   ```
-  - 19: USDC https://exchange.pikachudefi.com/#/swap/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d
+  - 21: USDC https://exchange.pikachudefi.com/#/swap/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d
   ```
   allocPoint   uint256 100
   lpToken      address 0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d
   depositFeeBP uint16  400
   ```
-  - 20: LINK https://exchange.pikachudefi.com/#/swap/0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd
+  - 22: LINK https://exchange.pikachudefi.com/#/swap/0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd
   ```
   allocPoint   uint256 200
   lpToken      address 0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd
   depositFeeBP uint16  400
   ```
-  - 21: DOT https://exchange.pikachudefi.com/#/swap/0x7083609fce4d1d8dc0c979aab8c869ea2c873402
+  - 23: DOT https://exchange.pikachudefi.com/#/swap/0x7083609fce4d1d8dc0c979aab8c869ea2c873402
   ```
   allocPoint   uint256 200
   lpToken      address 0x7083609fce4d1d8dc0c979aab8c869ea2c873402
   depositFeeBP uint16  400
   ```
-  - 22: CAKE https://exchange.pikachudefi.com/#/swap/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82
+  - 24: CAKE https://exchange.pikachudefi.com/#/swap/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82
   ```
   allocPoint   uint256 100
   lpToken      address 0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82
   depositFeeBP uint16  400
   ```
-  - 23: BSCX https://exchange.pikachudefi.com/#/swap/0x5ac52ee5b2a633895292ff6d8a89bb9190451587
+  - 25: BSCX https://exchange.pikachudefi.com/#/swap/0x5ac52ee5b2a633895292ff6d8a89bb9190451587
   ```
   allocPoint   uint256 100
   lpToken      address 0x5ac52ee5b2a633895292ff6d8a89bb9190451587
   depositFeeBP uint16  400
   ```
-  - 24: AUTO https://exchange.pikachudefi.com/#/swap/0xa184088a740c695e156f91f5cc086a06bb78b827
+  - 26: AUTO https://exchange.pikachudefi.com/#/swap/0xa184088a740c695e156f91f5cc086a06bb78b827
   ```
   allocPoint   uint256 100
   lpToken      address 0xa184088a740c695e156f91f5cc086a06bb78b827
