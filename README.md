@@ -50,7 +50,7 @@ chef.add(uint256 _allocPoint, IBEP20 _lpToken, uint16 _depositFeeBP, bool _withU
 ```
 depositFeeBP: 100 = 1%, 10000 = 100%
 
-- add LP and Token pools to MasterChefV2 - https://github.com/PikachuDefi/pikachu-contracts/wiki
+- add LP and Token pools to MasterChefV2 - https://github.com/PikachuDefi/pikachu-contracts/wiki/Pools
 
 ### Transfer MasterChefV2
 - transfer ownership of MasterChefV2 to Timelock
