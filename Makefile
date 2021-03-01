@@ -1,4 +1,4 @@
-all: 
+all:
 
 clean:
 	rm -rf build node_modules
@@ -12,14 +12,23 @@ build: deps
 deploy: deps
 	truffle migrate --network mainnet
 
-test: deps
+test-deploy: deps
 	truffle migrate --network testnet
 
 deploy-force: deps
 	truffle migrate --network mainnet --reset
 
-test-force: deps
+test-deploy-force: deps
 	truffle migrate --network testnet --reset
 
 verify: deps
-	truffle run verify PikachuToken MasterChef Timelock --network mainnet
+	truffle run verify PikachuToken MasterChefV2 Timelock --network mainnet
+
+test-verify: deps
+	truffle run verify PikachuToken MasterChefV2 Timelock --network testnet
+
+console: deps
+	truffle console --network mainnet
+
+test-console: deps
+	truffle console --network testnet

@@ -7,6 +7,6 @@ module.exports = async function (deployer) {
   let pika = await PikachuToken.deployed();
   let chef = await MasterChefV2.deployed();
 
-  pika.mint("100000000000000000000000");
-  pika.transferOwnership(chef.address);
+  await pika.mint("100000000000000000000000");
+  await pika.transferOwnership(chef.address);
 };

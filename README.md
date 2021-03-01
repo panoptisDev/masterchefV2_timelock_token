@@ -21,43 +21,70 @@ BSC_TESTNET_PRIVATE_KEY = <private_key>
 BSC_API_KEY = <bscscan_api_key>
 ```
 
-### Test Contracts
-```sh
-make test
-```
-
 ### Deploy Contracts
+- Mainnet
 ```sh
 make deploy
 ```
+- Testnet
+```sh
+make test-deploy
+```
+- Mainnet reset
+```sh
+make deploy-force
+```
+- Testnet reset
+```sh
+make test-deploy-force
+```
+
 - deploy PikachuToken
-- deploy Timelock
 - deploy MasterChefV2
+- deploy Timelock
 - mint PikachuToken
 - transfer ownership of PikachuToken to MasterChefV2
 
 ### Verify Contracts
+- Mainnet
 ```sh
 make verify
 ```
+- Testnet
+```sh
+make test-verify
+```
 
 ### Add Pools to MasterChefV2
+- Mainnet
 ```sh
-truffle console --network mainnet
+make console
 ```
+- Testnet
+```sh
+make test-console
+```
+
 ```js
 let chef = await MasterChefV2.deployed();
 chef.add(uint256 _allocPoint, IBEP20 _lpToken, uint16 _depositFeeBP, bool _withUpdate);
 ```
+
 depositFeeBP: 100 = 1%, 10000 = 100%
 
 - add LP and Token pools to MasterChefV2 - https://github.com/PikachuDefi/pikachu-contracts/wiki/Pools
 
 ### Transfer MasterChefV2
 - transfer ownership of MasterChefV2 to Timelock
+- Mainnet
 ```sh
-truffle console --network mainnet
+make console
 ```
+- Testnet
+```sh
+make test-console
+```
+
 ```js
 let chef = await MasterChefV2.deployed();
 let time = await Timelock.deployed();
