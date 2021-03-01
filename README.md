@@ -13,6 +13,14 @@ https://pikachudefi.com Feel free to read the code. More details coming soon.
 
 ## Deployment
 
+### ENV Variables
+Create a `.env` file with the following content:
+```
+BSC_MAINNET_PRIVATE_KEY = <private_key>
+BSC_TESTNET_PRIVATE_KEY = <private_key>
+BSC_API_KEY = <bscscan_api_key>
+```
+
 ### Test Contracts
 ```sh
 make test
@@ -29,13 +37,6 @@ make deploy
 - transfer ownership of PikachuToken to MasterChefV2
 
 ### Verify Contracts
-- add your BscScan API Key to truffle-config.js
-```js
-  api_keys: {
-    bscscan: "<apikey>"
-  },
-```
-- then run
 ```sh
 make verify
 ```
