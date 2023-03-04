@@ -4,5 +4,7 @@ const Multicall = artifacts.require("Multicall");
 const MasterChefV2 = artifacts.require("MasterChefV2");
 
 module.exports = async function (deployer) {
-  await deployer.deploy(Timelock, "0xBA82DA38C715aec2f53721B52612D7c26Cdf4319", 21600);
+  await deployer.deploy(Timelock, "0x770d34487A8cDBE69906A08A88455EefF1a75c46", 21600);// 6 hours
+  const timelock = await Timelock.deployed();
+  
 };

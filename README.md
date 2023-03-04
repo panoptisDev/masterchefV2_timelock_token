@@ -1,9 +1,14 @@
 # Pikachu Finance
 
-https://pikachudefi.com Feel free to read the code. More details coming soon.
+### Deployed contracts
+PikachuToken@0x66EE88c75b2796cA3e51e5A7c283004011622aCF
+MasterChefV2@0xe2247f3518220827a246576B74344Fa507cc7772
+Timelock@0xE8891C12404A7cf990Af0C9407774cABA0310FAf
+Multicall@0xf26f0C6272a76e43202e734Bff85944Bcde2228d
+
 
 ## Deployed Contracts
-
+truffle run verify Multicall@0xf26f0C6272a76e43202e734Bff85944Bcde2228d --network testnet
 ### BSC MAINNET
 
 - PikachuToken - https://bscscan.com/token/0xd592Dfe9E1B687B1D9dbDacf5b9F0789CC9Cd584

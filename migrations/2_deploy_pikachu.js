@@ -5,4 +5,5 @@ const MasterChefV2 = artifacts.require("MasterChefV2");
 
 module.exports = async function (deployer) {
   await deployer.deploy(PikachuToken);
+ 
 };
